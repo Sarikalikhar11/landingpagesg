@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+  position: relative;
+}
+#image {
+  width: 420px;
+  height: 420px;
+  background-image: url(/image/casual-life-3d-girl-with-laptop-and-coffee-sitting-on-floor.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 14%;
+  left: 60%;
+}
+#text {
+  width: 37%;
+  height: 30%;
+  position: absolute;
+  top: 28%;
+  left: 10%;
+}
+#text span {
+  color: #b45570;
+}
+#text h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#text p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+#text button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: #dcac68;
+  color: #76253c;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  transition: ease all 0.5s;
+}
+#text button:hover {
+  cursor: pointer;
+  background-color: #934158;
+  color: #dcac68;
+}
+h1 #work {
+  color: rgb(187, 89, 3);
+}
